@@ -1,0 +1,29 @@
+{
+  "name": "cypress-continues-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mistercleng/cypress-continues-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mistercleng/cypress-continues-integration/issues"
+  },
+  "homepage": "https://github.com/Mistercleng/cypress-continues-integration#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "cypress": "^9.7.0",
+    "eslint": "^8.18.0"
+  }
+}
